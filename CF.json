@@ -24,28 +24,38 @@
     "translator_chain": null,
     "selective_translation": null
   },
-  "detector": "default",
-  "detection_size": 2500,
-  "text_threshold": 0.3,
-  "det_rotate": true,
-  "det_auto_rotate": true,
-  "det_invert": false,
-  "det_gamma_correct": true,
-  "box_threshold": 0.7,
-  "unclip_ratio": 2.3,
+  "detector": {
+    "detector": "default",
+    "detection_size": 2500,
+    "text_threshold": 0.3,
+    "det_rotate": true,
+    "det_auto_rotate": true,
+    "det_invert": false,
+    "det_gamma_correct": true,
+    "box_threshold": 0.7,
+    "unclip_ratio": 2.3
+  },
   "upscale": {
     "upscaler": "esrgan",
     "revert_upscaling": "False",
     "upscale_ratio": null
   },
-  "inpainter": "none",
-  "inpainting_size": 2048,
-  "inpainting_precision": "fp32",
-  "ocr": "48px_ctc",
-  "min_text_length": 0,
-  "ignore_bubble": 5,
-  "use_mocr_merge": "True",
-  "colorizer": "none",
+  "inpainter": {
+    "inpainter": "none",
+    "inpainting_size": 2048,
+    "inpainting_precision": "fp32"
+  },
+  "ocr": {
+    "ocr": "48px_ctc",
+    "min_text_length": 0,
+    "ignore_bubble": 5,
+    "use_mocr_merge": true
+  },
+  "colorizer": {
+    "colorization_size": 576,
+    "denoise_sigma": 30,
+    "colorizer": "none"
+  },
   "kernel_size": 3,
   "mask_dilation_offset": 0
 }
