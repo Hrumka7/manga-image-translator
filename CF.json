@@ -1,0 +1,51 @@
+{
+  "filter_text": null,
+  "render": {
+    "renderer": "default",
+    "alignment": "auto",
+    "disable_font_border": "False",
+    "font_size_offset": 0,
+    "font_size_minimum": -1,
+    "direction": "auto",
+    "uppercase": "False",
+    "lowercase": "False",
+    "gimp_font": "Sans-serif",
+    "no_hyphenation": "False",
+    "font_color": null,
+    "line_spacing": null,
+    "font_size": null
+  },
+  "translator": {
+    "gpt_config": null,
+    "translator": "gpt3.5",
+    "target_lang": "ENG",
+    "no_text_lang_skip": "False",
+    "skip_lang": null,
+    "translator_chain": null,
+    "selective_translation": null
+  },
+  "detector": "default",
+  "detection_size": 2500,
+  "text_threshold": 0.3,
+  "det_rotate": true,
+  "det_auto_rotate": true,
+  "det_invert": false,
+  "det_gamma_correct": true,
+  "box_threshold": 0.7,
+  "unclip_ratio": 2.3,
+  "upscale": {
+    "upscaler": "esrgan",
+    "revert_upscaling": "False",
+    "upscale_ratio": null
+  },
+  "inpainter": "none",
+  "inpainting_size": 2048,
+  "inpainting_precision": "fp32",
+  "ocr": "48px_ctc",
+  "min_text_length": 0,
+  "ignore_bubble": 5,
+  "use_mocr_merge": "True",
+  "colorizer": "none",
+  "kernel_size": 3,
+  "mask_dilation_offset": 0
+}
