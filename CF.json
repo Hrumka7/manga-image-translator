@@ -9,7 +9,7 @@
     "direction": "auto",
     "uppercase": "False",
     "lowercase": "False",
-    "gimp_font": "Sans-serif",
+    "gimp_font": "comic_shanns_2",
     "no_hyphenation": "False",
     "font_color": null,
     "line_spacing": null,
@@ -18,7 +18,7 @@
   "translator": {
     "gpt_config": null,
     "translator": "gpt3.5",
-    "target_lang": "ENG",
+    "target_lang": "RUS",
     "no_text_lang_skip": "False",
     "skip_lang": null,
     "translator_chain": null,
@@ -26,19 +26,19 @@
   },
   "detector": {
     "detector": "default",
-    "detection_size": 2500,
-    "text_threshold": 0.3,
-    "det_rotate": true,
-    "det_auto_rotate": true,
+    "detection_size": 1536,
+    "text_threshold": 0.5,
+    "det_rotate": false,
+    "det_auto_rotate": false,
     "det_invert": false,
-    "det_gamma_correct": true,
+    "det_gamma_correct": false,
     "box_threshold": 0.7,
     "unclip_ratio": 2.3
   },
   "upscale": {
-    "upscaler": "esrgan",
+    "upscaler": "waifu2x",
     "revert_upscaling": "False",
-    "upscale_ratio": null
+    "upscale_ratio": "2"
   },
   "inpainter": {
     "inpainter": "none",
@@ -48,8 +48,8 @@
   "ocr": {
     "ocr": "48px_ctc",
     "min_text_length": 0,
-    "ignore_bubble": 5,
-    "use_mocr_merge": true
+    "ignore_bubble": 0,
+    "use_mocr_merge": false
   },
   "colorizer": {
     "colorization_size": 576,
