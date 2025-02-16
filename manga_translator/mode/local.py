@@ -62,7 +62,7 @@ class MangaTranslatorLocal(MangaTranslator):
             config = Config()
         # Handle format
         file_ext = params.get('format')
-        if params.get('save_quality', 100) < 100:
+        if params.get('save_quality', 75) < 100:
             if not params.get('format'):
                 file_ext = 'jpg'
             elif params.get('format') != 'jpg':
