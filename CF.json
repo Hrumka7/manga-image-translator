@@ -3,14 +3,14 @@
   "render": {
     "renderer": "default",
     "alignment": "auto",
-    "disable_font_border": "False",
+    "disable_font_border": false,
     "font_size_offset": 0,
     "font_size_minimum": -1,
     "direction": "auto",
-    "uppercase": "False",
-    "lowercase": "False",
+    "uppercase": false,
+    "lowercase": false,
     "gimp_font": "comic_shanns_2",
-    "no_hyphenation": "False",
+    "no_hyphenation": false,
     "font_color": null,
     "line_spacing": null,
     "font_size": null
@@ -18,8 +18,8 @@
   "translator": {
     "gpt_config": null,
     "translator": "gpt3.5",
-    "target_lang": "RUS",
-    "no_text_lang_skip": "False",
+    "target_lang": "ENG",
+    "no_text_lang_skip": false,
     "skip_lang": null,
     "translator_chain": null,
     "selective_translation": null
@@ -37,8 +37,8 @@
   },
   "upscale": {
     "upscaler": "waifu2x",
-    "revert_upscaling": "False",
-    "upscale_ratio": "2"
+    "revert_upscaling": false,
+    "upscale_ratio": null
   },
   "inpainter": {
     "inpainter": "none",
@@ -46,7 +46,7 @@
     "inpainting_precision": "fp32"
   },
   "ocr": {
-    "ocr": "48px_ctc",
+    "ocr": "48px",
     "min_text_length": 0,
     "ignore_bubble": 0,
     "use_mocr_merge": false
