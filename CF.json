@@ -17,7 +17,7 @@
   },
   "translator": {
     "gpt_config": null,
-    "translator": "gpt3.5",
+    "translator": "sugoi",
     "target_lang": "ENG",
     "no_text_lang_skip": false,
     "skip_lang": null,
@@ -28,17 +28,17 @@
     "detector": "default",
     "detection_size": 1536,
     "text_threshold": 0.5,
-    "det_rotate": false,
-    "det_auto_rotate": false,
-    "det_invert": false,
-    "det_gamma_correct": false,
+    "det_rotate": true,
+    "det_auto_rotate": true,
+    "det_invert": true,
+    "det_gamma_correct": true,
     "box_threshold": 0.7,
     "unclip_ratio": 2.3
   },
   "upscale": {
-    "upscaler": "waifu2x",
+    "upscaler": "esrgan",
     "revert_upscaling": false,
-    "upscale_ratio": null
+    "upscale_ratio": 2
   },
   "inpainter": {
     "inpainter": "none",
@@ -46,7 +46,7 @@
     "inpainting_precision": "fp32"
   },
   "ocr": {
-    "ocr": "48px",
+    "ocr": "48px_ctc",
     "min_text_length": 0,
     "ignore_bubble": 0,
     "use_mocr_merge": false
