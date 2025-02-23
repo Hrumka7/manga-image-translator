@@ -4,7 +4,7 @@
     "renderer": "default",
     "alignment": "auto",
     "disable_font_border": false,
-    "font_size_offset": 0,
+    "font_size_offset": 2,
     "font_size_minimum": -1,
     "direction": "auto",
     "uppercase": false,
@@ -17,7 +17,7 @@
   },
   "translator": {
     "gpt_config": null,
-    "translator": "sugoi",
+    "translator": "gpt3.5",
     "target_lang": "ENG",
     "no_text_lang_skip": false,
     "skip_lang": null,
@@ -38,7 +38,7 @@
   "upscale": {
     "upscaler": "esrgan",
     "revert_upscaling": false,
-    "upscale_ratio": 2
+    "upscale_ratio": null
   },
   "inpainter": {
     "inpainter": "none",
@@ -49,7 +49,7 @@
     "ocr": "48px_ctc",
     "min_text_length": 0,
     "ignore_bubble": 0,
-    "use_mocr_merge": false
+    "use_mocr_merge": true
   },
   "colorizer": {
     "colorization_size": 576,
