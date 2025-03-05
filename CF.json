@@ -5,7 +5,7 @@
     "alignment": "auto",
     "disable_font_border": false,
     "font_size_offset": 0,
-    "font_size_minimum": 20,
+    "font_size_minimum": 15,
     "direction": "auto",
     "uppercase": false,
     "lowercase": false,
@@ -38,10 +38,10 @@
   "upscale": {
     "upscaler": "esrgan",
     "revert_upscaling": false,
-    "upscale_ratio": null
+    "upscale_ratio": 2
   },
   "inpainter": {
-    "inpainter": "none",
+    "inpainter": "lama_large",
     "inpainting_size": 2048,
     "inpainting_precision": "fp32"
   },
@@ -56,6 +56,6 @@
     "denoise_sigma": 30,
     "colorizer": "none"
   },
-  "kernel_size": 3,
-  "mask_dilation_offset": 0
+  "kernel_size": 4,
+  "mask_dilation_offset": 2
 }
